@@ -35,8 +35,17 @@ img{
 }
 section{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
-
+.CARD{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
 .card_1{
     box-shadow: 12px 12px;
     text-align: center;
@@ -51,58 +60,7 @@ section{
 .card_1:hover{
     width: 22%;
 }
-.card_2{
-    box-shadow: 12px 12px;
-    text-align: center;
-    background-color: rgb(210 206 253);
-    border: 2px solid black;
-    border-radius: 22px;
-    width: 20%;
-    height: auto;
-    transition: 1s;
-}
-.card_2:hover{
-    width: 22%;
-}
-.card_3{
-    box-shadow: 12px 12px;
-    text-align: center;
-    background-color: rgb(210 206 253);
-    border: 2px solid black;
-    border-radius: 22px;
-    width: 20%;
-    height: auto;
-    transition: 1s;
-}
-.card_3:hover{
-    width: 22%;
-}
-.card_4{
-    box-shadow: 12px 12px;
-    text-align: center;
-    background-color: rgb(210 206 253);
-    border: 2px solid black;
-    border-radius: 22px;
-    width: 20%;
-    height: auto;
-    transition: 1s;
-}
-.card_4:hover{
-    width: 22%;
-}
-.card_5{
-    box-shadow: 12px 12px;
-    text-align: center;
-    background-color: rgb(210 206 253);
-    border: 2px solid black;
-    border-radius: 22px;
-    width: 20%;
-    height: auto;
-    transition: 1s;
-}
-.card_5:hover{
-    width: 22%;
-}
+
 .wanna{
     margin: 70px;
     font-size: 30px;
@@ -113,6 +71,10 @@ section{
 }
 .button{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 100px;
 }
 .button_1{
@@ -120,7 +82,6 @@ section{
     margin-bottom: 40px;
     border: 2px solid black;
     border-radius: 20px;
-    margin-left: 28%;
     font-size: 30px;
     width: 250px;
     height: 80px;
@@ -143,4 +104,9 @@ section{
 }
 .button_2:hover{
     background-color: #7970Ea;
+}
+@media only screen and (max-width: 500px) {
+    .card_1{
+        width: 360px;
+    }
 }
