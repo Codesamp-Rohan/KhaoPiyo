@@ -1,0 +1,146 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "ABeeZee";
+}
+header{
+    font-size: 30px;
+    display: grid;
+    text-align: center;
+    background-color: rgb(121, 112, 234);
+}
+nav>a{
+    text-decoration: none;
+    
+}
+a{
+    padding: 20px;
+}
+a:hover{
+    color: rgb(121, 112, 234);
+}
+.navi{
+    padding-top: 10px;
+}
+h2{
+    letter-spacing: 7px;
+    text-align: center;
+}
+img{
+    border: 2px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+    height: auto;
+}
+section{
+    display: flex;
+}
+
+.card_1{
+    box-shadow: 12px 12px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: rgb(210 206 253);
+    border: 2px solid black;
+    border-radius: 22px;
+    width: 20%;
+    height: auto;
+    transition: 1s;
+}
+.card_1:hover{
+    width: 22%;
+}
+.card_2{
+    box-shadow: 12px 12px;
+    text-align: center;
+    background-color: rgb(210 206 253);
+    border: 2px solid black;
+    border-radius: 22px;
+    width: 20%;
+    height: auto;
+    transition: 1s;
+}
+.card_2:hover{
+    width: 22%;
+}
+.card_3{
+    box-shadow: 12px 12px;
+    text-align: center;
+    background-color: rgb(210 206 253);
+    border: 2px solid black;
+    border-radius: 22px;
+    width: 20%;
+    height: auto;
+    transition: 1s;
+}
+.card_3:hover{
+    width: 22%;
+}
+.card_4{
+    box-shadow: 12px 12px;
+    text-align: center;
+    background-color: rgb(210 206 253);
+    border: 2px solid black;
+    border-radius: 22px;
+    width: 20%;
+    height: auto;
+    transition: 1s;
+}
+.card_4:hover{
+    width: 22%;
+}
+.card_5{
+    box-shadow: 12px 12px;
+    text-align: center;
+    background-color: rgb(210 206 253);
+    border: 2px solid black;
+    border-radius: 22px;
+    width: 20%;
+    height: auto;
+    transition: 1s;
+}
+.card_5:hover{
+    width: 22%;
+}
+.wanna{
+    margin: 70px;
+    font-size: 30px;
+    transition: 2s;
+}
+.wanna:hover{
+    font-size: 50px;
+}
+.button{
+    display: flex;
+    gap: 100px;
+}
+.button_1{
+    background-color: rgb(210 206 253);
+    margin-bottom: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 28%;
+    font-size: 30px;
+    width: 250px;
+    height: 80px;
+    cursor: pointer;
+    transition: 200ms;
+}
+.button_1:hover{
+    background-color: #7970Ea;
+}
+.button_2{
+    background-color: rgb(210 206 253);
+    margin-bottom: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 30px;
+    width: 250px;
+    height: 80px;
+    cursor: pointer;
+    transition: 200ms;
+}
+.button_2:hover{
+    background-color: #7970Ea;
+}
