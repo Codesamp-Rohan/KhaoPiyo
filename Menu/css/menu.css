@@ -10,7 +10,7 @@ body{
 }
 .badahead_3{
     display: flex;
-    gap: 60px;
+    gap: 11px;
     /* margin-left: 20px; */
     text-align: center;
     flex-wrap: wrap;
@@ -56,7 +56,7 @@ section{
     margin-bottom: 40px;
     /* margin-left: 20px; */
     display: flex;
-    gap: 60px;
+    gap: 17px;
     justify-content: center;
     align-items: center;
 }
@@ -111,18 +111,19 @@ h3{
     
 }
 .main2{
+    gap: 10px;
     /* display: flex; */
     /* margin-left: 54px; */
     margin-bottom: 40px;
     display: flex;
-    gap: 150px;
+    /* gap: -8px; */
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 @media screen and (max-width: 500px) {
     .card_1{
-        width: 156px;
+        width: 176px;
         height: auto;
     }
 }
