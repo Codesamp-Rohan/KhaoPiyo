@@ -3,7 +3,6 @@
     padding: 0;
 }
 body{
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .head{
@@ -45,7 +44,6 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid aliceblue; */
 }
 .NAME{
     display: flex;
@@ -67,7 +65,7 @@ form{
     display: flex;
     gap: 6px;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 600px;
@@ -93,6 +91,13 @@ label{
 }
 
 @media screen and (max-width: 500px) {
+    h1{
+        font-size: 46px;
+    }
+    
+    .sub-head{
+        font-size: 30px;
+    }
     .input{
         width: 330px;
         height: 22px;
@@ -101,5 +106,7 @@ label{
         width: 339px;
         height: auto;
     }
-    
+    .COMMENT{
+        width: 400px;
+    }
 }
