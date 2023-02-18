@@ -3,7 +3,8 @@
     padding: 0;
 }
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .head{
     font-size: 30px;
@@ -23,6 +24,82 @@ body{
     align-items: center;
 }
 .nav>a{
+    font-size: 16px;
     text-decoration: none;
     color: black;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub-head{
+    font-size: 40px;
+}
+form{
+    gap: 40px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid aliceblue; */
+}
+.NAME{
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.EMAIL{
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.COMMENT{
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: auto;
+}
+label{
+    font-weight: 600;
+    font-size: 20px;
+}
+.input{
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(121, 112, 234);
+    width: 600px;
+    height: 24px;
+    padding: 8px;
+    border-radius: 3px;
+}
+#comment{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgb(121, 112, 234)
+}
+
+@media screen and (max-width: 500px) {
+    .input{
+        width: 330px;
+        height: 22px;
+    }
+    form{
+        width: 339px;
+        height: auto;
+    }
+    
 }
