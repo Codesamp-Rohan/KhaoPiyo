@@ -65,8 +65,8 @@ form{
     display: flex;
     gap: 6px;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
     flex-direction: column;
     width: 600px;
     height: auto;
@@ -107,6 +107,7 @@ label{
         height: auto;
     }
     .COMMENT{
+        align-items: center;
         width: 400px;
     }
 }
